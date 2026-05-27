@@ -15,6 +15,7 @@ def analyze_text(text):
     }
 
 def main():
+    try:
     parser = argparse.ArgumentParser(description='Text Analyzer Pro')
     parser.add_argument('input', nargs='?', help='Text to analyze')
     parser.add_argument('-f', '--file', help='Read from file')
